@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  background-color: #FDFBF5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid black;
+}
+
+.view-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.view-1 p {
+  padding-top: 2rem;
+  width: 100%;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+.view-1 img {
+  width: 99%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1.1rem;
+}
+.view-1 h1 {
+  line-height: 60px;
+  height: 20%;
+  font-weight: 480;
+  font-size: 3.6rem;
+  width: 85%;
+  padding-bottom: 20px;
+}
+.view-1 .line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+.mix {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  margin: 2rem 0;
+  gap: 6 px;
+}
+.mix .view-2 {
+  display: flex;
+  flex-direction: column;
+}
+.mix .view-2 h1 {
+  font-weight: 400;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+.mix .view-2 p {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.mix .view-2 button {
+  height: 35px;
+  background-color: black;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 45%;
+  border-radius: 8px;
+  word-spacing: 4px;
+  margin-top: 5rem;
+}
+.mix .line {
+  height: 1px;
+  background-color: black;
+}
+.mix .view-3 {
+  width: 100%;
+}
+.mix .view-3 .first {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.mix .view-3 .second {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.mix .view-3 .third {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.mix .view-3 img {
+  width: 15%;
+  aspect-ratio: 1/1;
+}
+.mix .view-3 h1 {
+  font-size: 1.8rem;
+  font-weight: 450;
+}
+.mix .view-3 p {
+  font-size: 16px;
+  line-height: 27px;
+}
+.mix .view-3 .line {
+  height: 1px;
+  background-color: black;
+}
+
+@media (min-width: 1020px) {
+  .main {
+    padding: 2rem;
+  }
+  .view-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .view-1 p {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 1;
+  }
+  .view-1 h1 {
+    line-height: 8rem;
+    width: 70%;
+    font-size: 8rem;
+    font-weight: 400;
+  }
+  .view-1 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .mix {
+    flex-direction: row;
+  }
+  .mix .view-2 {
+    justify-content: space-between;
+  }
+  .mix .view-2 h1 {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 1;
+  }
+  .mix .view-2 p {
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 100px;
+    width: 80%;
+  }
+  .mix .view-2 button {
+    padding: 0.5rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 7px;
+    margin-top: 30rem;
+    font-size: 0.9rem;
+  }
+  .mix .line {
+    height: initial;
+    width: 1px;
+    margin-right: 4rem;
+  }
+  .mix .view-3 {
+    width: 80%;
+  }
+  .mix .view-3 .line {
+    height: 1px;
+    width: initial;
+  }
+  .mix .view-3 h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .mix .view-3 p {
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
